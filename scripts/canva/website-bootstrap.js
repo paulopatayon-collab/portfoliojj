@@ -1,0 +1,1 @@
+window['__canva_website_bootstrap__'] = JSON.parse('{"A":"DAHT14Kn_os","B":"eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoia2lkLTE3Nzg0NzAzNjEzOTQifQ..2xIocnAy9vm8zKic.gtwA9EcJiOCcE3l52z115MD7lS4P2iE4lN7_jaQsB3Shi-Gqf7xjXNlkmUbeeBIx7C0RPENJ4w.uZK1UMD6bqNNVgy2Jh7C8A"}');
