@@ -1,0 +1,66 @@
+/* Full-bleed viewport override for the exported Canva website. */
+html,
+body,
+#root {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html,
+body {
+  background: #711c1a;
+  overscroll-behavior: none;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: clip;
+}
+
+/* Remove Canva's paper/card frame and its outer side spacing. */
+.A_A_EQ._6NykrQ,
+.A_A_EQ.GDNWeg,
+.A_A_EQ._9nPhuA {
+  width: 100% !important;
+  min-width: 100% !important;
+  margin: 0 !important;
+}
+
+.A_A_EQ._6NykrQ .EY7A6g,
+.A_A_EQ._9nPhuA .EY7A6g,
+.EY7A6g {
+  width: 100vw !important;
+  max-width: none !important;
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.A_A_EQ._6NykrQ .slEAMg,
+.A_A_EQ._9nPhuA .slEAMg,
+.A_A_EQ._6NykrQ .jHvOGA,
+.A_A_EQ._9nPhuA .jHvOGA {
+  box-sizing: border-box;
+  width: 100% !important;
+  padding-inline: 0 !important;
+}
+
+/* Canva's fallback media frame adds an 8px white border. */
+._4A33GA {
+  box-sizing: border-box;
+  width: 100% !important;
+  border: 0 !important;
+}
+
+@supports not (overflow: clip) {
+  #root {
+    overflow-x: hidden;
+  }
+}
+
